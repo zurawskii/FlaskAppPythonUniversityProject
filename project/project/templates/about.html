@@ -1,0 +1,36 @@
+{% include "header.html" %}
+
+<!-- Page Header-->
+<header
+  class="masthead"
+  style="background-image: url('../static/assets/img/about-us-bg.jpg')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="page-heading">
+          <h1>O autorach</h1>
+          <span class="subheading">Kim jesteśmy?</span>
+        </div>
+      </div>
+    </div>S
+  </div>
+</header>
+<!-- Main Content-->
+<main class="mb-4">
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7" style="text-align:justify">
+        <p>
+          Studiujemy dziennie na III roku Informatykę i Ekonometrię na SGGW i w ramach projektu z fakultetu „Python - Web i deep learning” stworzyliśmy blog poświęcony ciekawostkom i wydarzeniom ze świata piłki nożnej. Na naszej stronie użytkownicy mogą się rejestrować, logować oraz zostawiać komentarze pod postami. Dodaliśmy również funkcjonalność formularza kontaktowego, umożliwiającego wysyłanie wiadomości e-mail bezpośrednio z poziomu strony. Administrator (użytkownik z id = 1 w bazie danych) ma pełną kontrolę nad treściami – może dodawać, edytować i usuwać posty, co pozwala na łatwe zarządzanie blogiem.
+        </p>
+        <p>
+          Autorami projektu są Paweł Żurawski, Cezary Suchenek, Mikołaj Remelski i Konrad Sienkiewicz. Aby aplikacja działała w pełni poprawnie, wymagane jest ustawienie zmiennych środowiskowych (Environmental Variables) w edytorze. My korzystaliśmy z PyCharma. Projekt został również udostępniony na GitHubie, co umożliwia jego dalszy rozwój i współpracę.
+        </p>
+          <p>W zakładce Contact znajduje się formularz kontaktowy, jest aktywny i działa. Aby możliwe było wysyłanie emaili wymagane jest ustawienie dwóch env variables w edytorze kodu (EMAIL_KEY, PASSWORD_KEY). Email Key to adres email konta z którego będą wysyłane emaile czyli nadawca. Password key to app password, aby je otrzymać trzeba je odczytać w ustawieniach konta pocztowego gmail/google po uprzednim ustawieniu 2-step verification.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include "footer.html" %}
